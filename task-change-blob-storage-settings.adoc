@@ -1,0 +1,86 @@
+---
+sidebar: sidebar 
+permalink: task-change-blob-storage-settings.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
+summary: 'Una volta che il sistema Azure Blob Storage è disponibile nella pagina Sistemi, è possibile modificare alcune proprietà dell"account di archiviazione direttamente dalla console NetApp .' 
+---
+= Modificare le impostazioni dell'account di archiviazione BLOB di Azure nella console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Una volta che il sistema Azure Blob Storage è disponibile nella pagina Sistemi, è possibile modificare alcune proprietà dell'account di archiviazione direttamente dalla console NetApp .
+
+Tieni presente che non puoi modificare il nome dell'account di archiviazione, la regione di Azure o il tipo di prestazioni dell'archiviazione.
+
+Le proprietà dell'account di archiviazione che puoi modificare includono:
+
+* La sottoscrizione e il gruppo di risorse per l'account di archiviazione.
+* Aggiungere, modificare o rimuovere i tag per gli oggetti aggiunti all'account di archiviazione.
+* Se i nuovi oggetti aggiunti all'account di archiviazione sono crittografati o meno e quale opzione viene utilizzata per la crittografia.
+
+
+È possibile modificare queste impostazioni dell'account di archiviazione direttamente dalla Console selezionandoimage:button-horizontal-more.gif["il pulsante \"Altro\" con tre punti"] per un account di archiviazione.
+
+image:screenshot-edit-azure-blob-storage.png["Uno screenshot che mostra come modificare le proprietà dell'account di archiviazione dalla Console."]
+
+
+
+== Modifica i dettagli del progetto
+
+Nella sezione _Dettagli progetto_ puoi modificare l'abbonamento e il gruppo di risorse per l'account di archiviazione.
+
+[cols="25,75"]
+|===
+| Campo | Descrizione 
+
+
+| Sottoscrizione | Selezionare una sottoscrizione Azure diversa per l'account di archiviazione. 
+
+
+| Gruppo di risorse  a| 
+Selezionare un gruppo di risorse diverso per l'account di archiviazione.
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["Scopri di più sui gruppi di risorse"^] .
+
+|===
+Selezionare *Salva* per salvare le modifiche all'account di archiviazione.
+
+
+
+== Aggiungere o modificare i tag per gli oggetti nell'account di archiviazione
+
+Nella sezione _Tag_ puoi aggiungere fino a 10 coppie chiave/valore tag oppure puoi modificare o eliminare una coppia chiave/valore tag.  I tag vengono applicati agli oggetti quando vengono aggiunti all'account di archiviazione.  Se vuoi aggiungere altri tag, seleziona *Aggiungi nuovo tag*.
+
+https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["Scopri di più sul tagging dalla documentazione Microsoft"^] .
+
+Selezionare *Salva* per salvare le modifiche all'account di archiviazione.
+
+
+
+== Cambiare l'impostazione di crittografia
+
+Nella sezione _Crittografia_ puoi modificare il tipo di crittografia dei dati che desideri utilizzare per proteggere l'accesso ai dati nei tuoi account di archiviazione.
+
+[cols="25,75"]
+|===
+| Tipo di crittografia dei dati | Descrizione 
+
+
+| Chiavi gestite da Microsoft | Per impostazione predefinita, per crittografare i dati vengono utilizzate le chiavi di crittografia gestite da Microsoft. 
+
+
+| Chiavi gestite dal cliente  a| 
+È possibile utilizzare le chiavi gestite dal cliente per la crittografia dei dati anziché utilizzare le chiavi di crittografia predefinite gestite da Microsoft.  Se intendi utilizzare le tue chiavi gestite dal cliente, dovrai averle già create, in modo da poter selezionare Key Vault e Chiavi in questa pagina.
+
+Le chiavi possono trovarsi nello stesso abbonamento dell'account di archiviazione oppure è possibile selezionare un abbonamento diverso.
+
+|===
+Consultare la documentazione di Microsoft Azure per https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["maggiori informazioni sulle chiavi gestite da Microsoft"^] , E https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["maggiori informazioni sulle chiavi gestite dal cliente"^] .
+
+Selezionare *Salva* per salvare le modifiche all'account di archiviazione.

@@ -1,0 +1,11 @@
+= Possibilità di aggiungere nuovi account di archiviazione da BlueXP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+
+
+=== Possibilità di aggiungere nuovi account di archiviazione da BlueXP
+
+È da un po' che hai la possibilità di visualizzare Azure Blob Storage su BlueXP Canvas.  Ora puoi aggiungere nuovi account di archiviazione e modificare le proprietà degli account di archiviazione esistenti direttamente da BlueXP. xref:../task-add-blob-storage.html[Scopri come aggiungere nuovi account di archiviazione BLOB di Azure] .

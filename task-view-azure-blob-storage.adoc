@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task-view-azure-blob-storage.html 
+keywords: blob storage, blob system, azure blob storage accounts, azure blob working environment 
+summary: 'Dopo aver installato un agente Console in Azure, la console NetApp può individuare automaticamente informazioni sugli account di archiviazione di Azure che risiedono nelle sottoscrizioni di Azure in cui è installato l"agente Console.' 
+---
+= Visualizza i tuoi account di archiviazione BLOB di Azure
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dopo aver installato un agente Console in Azure, la console NetApp può individuare automaticamente informazioni sugli account di archiviazione di Azure che risiedono nelle sottoscrizioni di Azure in cui è installato l'agente Console.  Un sistema Azure Blob viene aggiunto alla pagina Sistemi, in modo da poter visualizzare queste informazioni.
+
+Puoi visualizzare i dettagli sui tuoi account di archiviazione di Azure, tra cui la posizione, il gruppo di risorse, la capacità utilizzata e altro ancora.  Questi account possono essere utilizzati come destinazioni per le operazioni di NetApp Backup and Recovery, NetApp Copy and Sync e NetApp Cloud Tiering.
+
+.Passi
+. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Installa un agente Console"^]nell'account Azure in cui desideri visualizzare gli account di archiviazione BLOB di Azure.
+. Dal menu di navigazione, selezionare *Archiviazione > Sistemi*.
++
+Poco dopo dovresti vedere automaticamente un sistema Azure Blob Storage.
+
++
+image:screenshot-azure-blob-we.png["Uno screenshot di un sistema di archiviazione BLOB di Azure."]
+
+. Selezionare il sistema. Se vuoi abilitare i servizi dati NetApp con il tuo archivio BLOB di Azure, seleziona un'azione dal riquadro di destra
++
+link:task-blob-enable-data-services.html["Scopri quali servizi dati sono disponibili e scopri come utilizzarli con i tuoi account Azure Blob Storage"] .
+
+. Selezionare *Immetti sistema* o fare doppio clic sul sistema per visualizzare i dettagli sugli account di archiviazione di Azure.
++
+image:screenshot-azure-blob-details.png["Uno screenshot che mostra i dettagli di un sistema Azure Blob: il numero totale di account di archiviazione, il numero totale di posizioni, gruppi di risorse, capacità totale e altro ancora."]
+
++
+Oltre alle colonne visualizzate per impostazione predefinita, è possibile scorrere la pagina per visualizzare proprietà aggiuntive per l'account di archiviazione, ad esempio il numero di tag e il tipo di crittografia abilitata.
+
+
+
+.Prossimi passi
+È possibile modificare alcune impostazioni dell'account di archiviazione direttamente dalla Console selezionandoimage:button-horizontal-more.gif["il pulsante \"Altro\" con tre punti"] per un account di archiviazione. link:task-change-blob-storage-settings.html["Vai qui per i dettagli"] .
+
+Puoi aggiungere nuovi bucket selezionando *Aggiungi account di archiviazione*. link:task-add-blob-storage.html["Vai qui per i dettagli"] .

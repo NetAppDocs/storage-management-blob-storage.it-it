@@ -1,0 +1,33 @@
+---
+indexpage:
+  title: Documentazione sull'archiviazione BLOB di Azure
+  summary: Inizia a usare l'archiviazione BLOB di Azure con la console NetApp .
+  keywords: bluexp, documentation, storage, storage management, azure blob, netapp
+    console
+  lead: Inizia a usare l'archiviazione BLOB di Azure con la console NetApp .
+  tiles:
+  - title: Iniziare
+    links:
+    - title: Visualizza i tuoi account di archiviazione BLOB di Azure
+      url: task-view-azure-blob-storage.html
+  - title: Gestire gli account di archiviazione BLOB di Azure
+    links:
+    - title: Aggiungi account di archiviazione BLOB
+      url: task-add-blob-storage.html
+    - title: Modificare le impostazioni dell'account di archiviazione
+      url: task-change-blob-storage-settings.html
+    - title: Utilizzare i servizi dati NetApp con l'archiviazione BLOB di Azure
+      url: task-blob-enable-data-services.html
+  - title: Ulteriori informazioni
+    links:
+    - title: Documentazione di Azure Blob Storage per la gestione al di fuori della
+        console
+      url: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+  - title: Blog e comunità
+    links:
+    - title: Console NetApp
+      url: https://www.netapp.com/console
+    - title: Servizi dati NetApp
+      url: https://www.netapp.com/data-services/
+    - title: Comunità NetApp
+      url: https://community.netapp.com/

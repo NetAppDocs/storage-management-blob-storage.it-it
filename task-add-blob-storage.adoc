@@ -1,0 +1,103 @@
+---
+sidebar: sidebar 
+permalink: task-add-blob-storage.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, add storage accounts, netapp console, system 
+summary: Una volta che il sistema Azure Blob Storage è disponibile nella pagina dei sistemi della console NetApp , è possibile aggiungere altri account di archiviazione direttamente dalla console. 
+---
+= Aggiungere account di archiviazione BLOB di Azure nella console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Una volta che il sistema Azure Blob Storage è disponibile nella pagina dei sistemi della console NetApp , è possibile aggiungere altri account di archiviazione direttamente dalla console.
+
+.Passi
+. Dalla pagina Sistemi, seleziona il sistema Azure Blob Storage per visualizzarne la pagina di panoramica.
+. Seleziona *Aggiungi account di archiviazione*.
++
+image:screenshot-add-blob-storage-button.png["Uno screenshot che mostra i dettagli di un sistema di archiviazione BLOB di Azure e il pulsante Aggiungi account di archiviazione."]
+
++
+Viene visualizzata la pagina _Aggiungi account di archiviazione_.
+
++
+image:screenshot-add-blob-storage.png["Uno screenshot che mostra la pagina Aggiungi account di archiviazione, in modo da poter creare i propri account di archiviazione BLOB di Azure."]
+
+. Inserisci le informazioni richieste nella sezione _Dettagli del progetto_.
++
+[cols="25,75"]
+|===
+| Campo | Descrizione 
+
+
+| Sottoscrizione | Selezionare la sottoscrizione di Azure per il nuovo account di archiviazione. 
+
+
+| Gruppo di risorse  a| 
+Seleziona un gruppo di risorse esistente per questo account di archiviazione.
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["Scopri di più sui gruppi di risorse"^] .
+
+|===
+. Nella sezione _Dettagli istanza_, immettere il nome dell'account di archiviazione e selezionare una regione (o regioni) in cui creare l'account di archiviazione.
++
+[cols="25,75"]
+|===
+| Campo | Descrizione 
+
+
+| Nome dell'account di archiviazione | Inserisci il nome che desideri utilizzare per l'account di archiviazione.  Il nome deve essere lungo tra 3 e 24 caratteri e può contenere solo numeri e lettere minuscole. 
+
+
+| Regione Azzurra  a| 
+Selezionare dall'elenco una regione in cui verrà creato l'account di archiviazione.
+
+Seleziona la regione appropriata per il tuo account di archiviazione. https://learn.microsoft.com/en-us/azure/availability-zones/az-overview["Consultare la documentazione Microsoft per informazioni sulle regioni e le zone di disponibilità di Azure"^] .
+
+Non tutte le regioni sono supportate per tutti i tipi di account di archiviazione o configurazioni di ridondanza. https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy["Consultare la documentazione Microsoft per informazioni sulla ridondanza di Azure Storage"^] .
+
+Inoltre, la scelta della regione può avere un impatto sulla fatturazione. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing["Consultare la documentazione Microsoft per informazioni sulla fatturazione dell'account di archiviazione di Azure"^] .
+
+
+
+| Tipo di prestazione  a| 
+Seleziona se desideri utilizzare l'archiviazione con prestazioni *Standard* o *Premium*. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts["Consultare la documentazione Microsoft per informazioni sui tipi di account di archiviazione"^] .
+
+** Le prestazioni _Standard_ vengono utilizzate per gli account di archiviazione v2 generici.  Questo tipo di account è consigliato per la maggior parte degli scenari.
+** Le prestazioni _Premium_ vengono utilizzate per scenari che richiedono bassa latenza.  Sono disponibili tre tipi di account di archiviazione premium: Blob a blocchi, condivisioni di file e Blob di pagine.
+
+
+|===
+. Nella sezione _Tag_ puoi inserire fino a 10 coppie chiave/valore tag per raggruppare le tue risorse.
++
+I tag sono metadati che puoi utilizzare per raggruppare le risorse e identificare applicazioni, ambienti, regioni, provider cloud e altro ancora. È possibile aggiungere tag a un account di archiviazione in modo che vengano applicati agli oggetti quando vengono aggiunti all'account di archiviazione.
+
++
+Per impostazione predefinita, i tag sono disabilitati nei nuovi account di archiviazione creati dalla Console. https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["Scopri di più sul tagging"^] .
+
+. Nella sezione _Crittografia_, seleziona il tipo di crittografia dei dati che desideri utilizzare per proteggere l'accesso ai dati nell'account di archiviazione.
++
+[cols="25,75"]
+|===
+| Tipo di crittografia dei dati | Descrizione 
+
+
+| Chiavi gestite da Microsoft | Per impostazione predefinita, per crittografare i dati vengono utilizzate chiavi di crittografia gestite da Microsoft. 
+
+
+| Chiavi gestite dal cliente  a| 
+È possibile utilizzare le chiavi gestite dal cliente per la crittografia dei dati anziché utilizzare le chiavi di crittografia predefinite gestite da Microsoft.  Se intendi utilizzare le tue chiavi gestite dal cliente, dovrai averle già create, in modo da poter selezionare Key Vault e Chiavi in questa pagina.
+
+Le chiavi possono trovarsi nello stesso abbonamento dell'account di archiviazione oppure è possibile selezionare un abbonamento diverso.
+
+|===
++
+Consultare la documentazione di Microsoft Azure per https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["maggiori informazioni sulle chiavi gestite da Microsoft"^] , E https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["maggiori informazioni sulle chiavi gestite dal cliente"^] .
+
+. Selezionare *Aggiungi* per creare il bucket.
+
