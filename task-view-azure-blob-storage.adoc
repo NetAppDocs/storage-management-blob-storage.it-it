@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-view-azure-blob-storage.html 
 keywords: blob storage, blob system, azure blob storage accounts, azure blob working environment 
-summary: 'Dopo aver installato un agente Console in Azure, la console NetApp può individuare automaticamente informazioni sugli account di archiviazione di Azure che risiedono nelle sottoscrizioni di Azure in cui è installato l"agente Console.' 
+summary: 'Dopo aver installato un agente Console in Azure, la NetApp Console può individuare automaticamente informazioni sugli account di archiviazione di Azure che risiedono nelle sottoscrizioni di Azure in cui è installato l"agente Console.' 
 ---
 = Visualizza i tuoi account di archiviazione BLOB di Azure
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Dopo aver installato un agente Console in Azure, la console NetApp pu�
 
 
 [role="lead"]
-Dopo aver installato un agente Console in Azure, la console NetApp può individuare automaticamente informazioni sugli account di archiviazione di Azure che risiedono nelle sottoscrizioni di Azure in cui è installato l'agente Console.  Un sistema Azure Blob viene aggiunto alla pagina Sistemi, in modo da poter visualizzare queste informazioni.
+Dopo aver installato un agente Console in Azure, la NetApp Console può individuare automaticamente informazioni sugli account di archiviazione di Azure che risiedono nelle sottoscrizioni di Azure in cui è installato l'agente Console.  Un sistema Azure Blob viene aggiunto alla pagina Sistemi, in modo da poter visualizzare queste informazioni.
 
 Puoi visualizzare i dettagli sui tuoi account di archiviazione di Azure, tra cui la posizione, il gruppo di risorse, la capacità utilizzata e altro ancora.  Questi account possono essere utilizzati come destinazioni per le operazioni di NetApp Backup and Recovery, NetApp Copy and Sync e NetApp Cloud Tiering.
 
@@ -27,7 +27,7 @@ Poco dopo dovresti vedere automaticamente un sistema Azure Blob Storage.
 +
 image:screenshot-azure-blob-we.png["Uno screenshot di un sistema di archiviazione BLOB di Azure."]
 
-. Selezionare il sistema. Se vuoi abilitare i servizi dati NetApp con il tuo archivio BLOB di Azure, seleziona un'azione dal riquadro di destra
+. Selezionare il sistema.  Se vuoi abilitare i servizi dati NetApp con il tuo archivio BLOB di Azure, seleziona un'azione dal riquadro di destra
 +
 link:task-blob-enable-data-services.html["Scopri quali servizi dati sono disponibili e scopri come utilizzarli con i tuoi account Azure Blob Storage"] .
 

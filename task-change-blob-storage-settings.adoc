@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-change-blob-storage-settings.html 
 keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
-summary: 'Una volta che il sistema Azure Blob Storage è disponibile nella pagina Sistemi, è possibile modificare alcune proprietà dell"account di archiviazione direttamente dalla console NetApp .' 
+summary: 'Una volta che il sistema Azure Blob Storage è disponibile nella pagina Sistemi, è possibile modificare alcune proprietà dell"account di archiviazione direttamente dalla NetApp Console.' 
 ---
-= Modificare le impostazioni dell'account di archiviazione BLOB di Azure nella console NetApp
+= Modificare le impostazioni dell'account di archiviazione BLOB di Azure nella NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'Una volta che il sistema Azure Blob Storage è disponibile nella pagin
 
 
 [role="lead"]
-Una volta che il sistema Azure Blob Storage è disponibile nella pagina Sistemi, è possibile modificare alcune proprietà dell'account di archiviazione direttamente dalla console NetApp .
+Una volta che il sistema Azure Blob Storage è disponibile nella pagina Sistemi, è possibile modificare alcune proprietà dell'account di archiviazione direttamente dalla NetApp Console.
 
 Tieni presente che non puoi modificare il nome dell'account di archiviazione, la regione di Azure o il tipo di prestazioni dell'archiviazione.
 

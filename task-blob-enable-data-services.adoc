@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-blob-enable-data-services.html 
 keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
-summary: Dopo aver individuato gli account di archiviazione BLOB di Azure nella console NetApp , è possibile utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli e la sincronizzazione dei dati. 
+summary: Dopo aver individuato gli account di archiviazione BLOB di Azure nella NetApp Console, è possibile utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli e la sincronizzazione dei dati. 
 ---
 = Utilizzare i servizi dati NetApp con l'archiviazione BLOB di Azure
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Dopo aver individuato gli account di archiviazione BLOB di Azure nella 
 
 
 [role="lead"]
-Dopo aver individuato gli account di archiviazione BLOB di Azure nella console NetApp , è possibile utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli e la sincronizzazione dei dati.
+Dopo aver individuato gli account di archiviazione BLOB di Azure nella NetApp Console, è possibile utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli e la sincronizzazione dei dati.
 
 * Utilizza * NetApp Backup and Recovery* per eseguire il backup dei dati dai tuoi sistemi ONTAP locali e Cloud Volumes ONTAP nell'archiviazione BLOB di Azure.
 +
