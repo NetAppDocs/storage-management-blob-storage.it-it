@@ -19,7 +19,7 @@ Dopo aver installato un agente Console in Azure, la console NetApp può individu
 Puoi visualizzare i dettagli sui tuoi account di archiviazione di Azure, tra cui la posizione, il gruppo di risorse, la capacità utilizzata e altro ancora.  Questi account possono essere utilizzati come destinazioni per le operazioni di NetApp Backup and Recovery, NetApp Copy and Sync e NetApp Cloud Tiering.
 
 .Passi
-. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Installa un agente Console"^]nell'account Azure in cui desideri visualizzare gli account di archiviazione BLOB di Azure.
+. https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-azure.html["Installa un agente Console"^]nell'account Azure in cui desideri visualizzare gli account di archiviazione BLOB di Azure.
 . Dal menu di navigazione, selezionare *Archiviazione > Sistemi*.
 +
 Poco dopo dovresti vedere automaticamente un sistema Azure Blob Storage.

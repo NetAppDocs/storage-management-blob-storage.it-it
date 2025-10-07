@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-blob-enable-data-services.html 
 keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
-summary: Dopo aver individuato gli account di archiviazione BLOB di Azure in BlueXP, è possibile utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli e la sincronizzazione dei dati. 
+summary: Dopo aver individuato gli account di archiviazione BLOB di Azure nella console NetApp , è possibile utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli e la sincronizzazione dei dati. 
 ---
 = Utilizzare i servizi dati NetApp con l'archiviazione BLOB di Azure
 :hardbreaks:
@@ -21,14 +21,14 @@ Dopo aver individuato gli account di archiviazione BLOB di Azure nella console N
 Per iniziare, vai alla pagina Sistemi.  Trascina e rilascia un sistema ONTAP locale o Cloud Volumes ONTAP sul tuo sistema Azure Blob Storage.
 
 +
-https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Scopri di più sul backup dei dati ONTAP nell'archiviazione BLOB di Azure"^] .
+https://docs.netapp.com/us-en/data-services-backup-recovery/concept-ontap-backup-to-cloud.html["Scopri di più sul backup dei dati ONTAP nell'archiviazione BLOB di Azure"^] .
 
 * Utilizzare * NetApp Cloud Tiering* per suddividere in livelli i dati inattivi dai cluster ONTAP locali all'archiviazione BLOB di Azure.
 +
 Per iniziare, vai alla pagina Sistemi.  Trascina e rilascia un sistema ONTAP locale sul tuo sistema Azure Blob Storage.
 
 +
-https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-azure.html["Scopri di più sulla suddivisione in livelli dei dati ONTAP nell'archiviazione BLOB di Azure"^] .
+https://docs.netapp.com/us-en/data-services-cloud-tiering/task-tiering-onprem-azure.html["Scopri di più sulla suddivisione in livelli dei dati ONTAP nell'archiviazione BLOB di Azure"^] .
 
 * Utilizzare * NetApp Copy and Sync* per sincronizzare i dati da o verso gli account di archiviazione BLOB di Azure.
 +
@@ -38,6 +38,6 @@ Per iniziare, vai alla pagina Sistemi.  Trascinare e rilasciare il sistema sorge
 È anche possibile selezionare il sistema di archiviazione BLOB di Azure, quindi *Copia e sincronizza* dal pannello Servizi per sincronizzare i dati da o verso gli account di archiviazione BLOB di Azure.
 
 +
-https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["Scopri di più su Copia e sincronizzazione"^] .
+https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["Scopri di più su Copia e sincronizzazione"^] .
 
 
